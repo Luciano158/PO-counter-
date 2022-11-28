@@ -81,15 +81,58 @@
 
 //console.log(mygreetings)
 
-let welcomeEl = document.getElementById("welcome-el")
+//let welcomeEl = document.getElementById("welcome-el")
 
-let name = "Luciano"
+//let name = "Luciano"
 
-let greeting = "Welcom back"
+//let greeting = "Welcom back"
 
-welcomeEl.innerText = greeting + name
+//welcomeEl.innerText = greeting + name
 
-welcomeEl.innertext = welcomeEl + '👋'
+//welcomeEl.innertext = welcomeEl + '👋'
 
 
 
+//let firstname = 'Luciano'
+
+
+///let lastname = 'Senekal'
+
+//et fullname = firstname + " " + lastname
+
+//console.log (fullname)
+//
+//
+//let name = "Linda"
+//let greeting = "Hi there"
+
+//function greetingmessage() {
+
+ // console.log(greeting + ", " + name +"!")
+//}
+
+//greetingmessage()
+
+
+let mypoints = 3
+ 
+function addpoints() {
+
+  mypoints += 3
+}
+
+
+function removepoints() {
+
+  mypoints -= 1
+}
+
+addpoints()
+addpoints()
+addpoints()
+
+
+removepoints()
+removepoints()
+
+console.log(mypoints)
