@@ -114,25 +114,34 @@
 //greetingmessage()
 
 
-let mypoints = 3
+//let mypoints = 3
  
-function addpoints() {
+//function addpoints() {
 
-  mypoints += 3
+ // mypoints += 3
+//}
+
+
+//function removepoints() {
+
+  //mypoints -= 1
+//}
+
+//addpoints()
+//addpoints()
+//addpoints()
+
+
+//removepoints()
+//removepoints()
+
+//console.log(mypoints)
+
+let errorParagraph = document.getElementById("error")
+
+
+function purchase() {
+
+    errorParagraph.textContent = "Something went wrong, please try again"
 }
 
-
-function removepoints() {
-
-  mypoints -= 1
-}
-
-addpoints()
-addpoints()
-addpoints()
-
-
-removepoints()
-removepoints()
-
-console.log(mypoints)
