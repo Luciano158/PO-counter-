@@ -1,0 +1,63 @@
+html, body {
+
+ 
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    
+    text-align: center;
+
+}
+
+body {background-color: rgb(255, 127, 80);}
+
+
+.right {
+    position: absolute;
+    right: 250px;
+    width: 300px;
+   
+    padding: 10px; 
+
+    @font-face 
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 100px;
+    /* or 141% */
+   
+    
+    text-align: center;
+    
+    color: #FFFCFC;
+  
+}
+
+
+.left {
+    position: absolute;
+    left: 250px;
+    width: 300px;
+   
+    padding: 10px; 
+
+    @font-face 
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 100px;
+    /* or 141% */
+    
+    text-align: center;
+    
+    color: #FFFCFC;
+  
+
+
+}
+
