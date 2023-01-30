@@ -27,4 +27,30 @@ function addtwo() {
     HOME.textContent = home
  }
 
- 
+
+
+ function add1() {
+
+   guest +=  + 1
+   
+   GUEST.textContent = guest
+}
+
+function add2() {
+
+    guest +=  + 2
+    
+    GUEST.textContent = guest
+ }
+
+ function add3() {
+
+    guest +=  + 3
+    
+    GUEST.textContent = guest
+ } 
+
+
+
+
+  
