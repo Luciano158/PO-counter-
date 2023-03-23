@@ -1,5 +1,6 @@
- let firstCard = 10
+ let firstCard = 5
  let secondCard = 11
+ 
  let sum = firstCard + secondCard
  let hasBlackJack = false
  let isalive = true
@@ -9,7 +10,12 @@ let sumEL = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
 function startgame(){
-    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+
+    rendergame()
+}
+
+function rendergame(){
+    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard +" "
     sumEL.textContent = "Sum : " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card? "
@@ -23,11 +29,13 @@ function startgame(){
     messageEl.textContent = message
 }
 
-function newcard(){
-    console.log("Drawing a new card from deck")
-}
+function newcard() {
+    console.log("Drawing a new card from the deck!")
+    let card = 5
+    sum += card 
 
- 
+    rendergame() 
+}
 
 // console.log(isalive)
 
@@ -53,5 +61,6 @@ function newcard(){
 // } else {
 //     console.log("Not elegible, you have already gotten one")
 // }
+
 
 
